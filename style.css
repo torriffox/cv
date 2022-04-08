@@ -1,0 +1,372 @@
+body{
+    background-color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+.main{
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #fdf4e4;
+    border: 1px solid #4a4538;
+    border-radius: 25px;
+    align-items: stretch;
+    /*Флексы растягиваются таким образом, 
+    чтобы занять всё доступное пространство контейнера.*/
+}
+.l_block, .r_block{
+    width: 30px;
+    display: flex;
+    background-color: #866443;
+}
+.l_block{
+    float: left;
+    border-radius: 25px 0 0 25px;
+}
+.r_block{
+    float: left;
+    border-radius: 0 25px 25px 0;
+}
+.l1{
+    display: block;
+    width: 100%;
+    float: left;
+    height: 300px;
+    border-bottom: 4px solid #866443;
+}
+.l2_1{
+    width: 361px;
+    display: block;
+    float: left;
+    border-right: 4px solid #866443;
+    min-height: 500px;
+}
+.l2_2{
+    width: 535px;
+    display: block;
+    float: left;
+    min-height: 500px;
+}
+.centre{
+    width: 100%;
+    float: left;
+    margin: 0 25px;
+    display: block;
+}
+.l3{
+    float: left;
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.l3_1{
+    width: 33.3%;
+    display: flex;
+}
+.l2_1_1, .l2_1_2, .l2_1_3{
+    min-height: 100px;
+    margin: 15px 25px 0 0;
+    border-bottom: 4px solid #866443;
+    display: inline-table;
+}
+.l2_1_3{
+    border: 0; 
+}
+.l2_2_1, .l2_2_2{
+    min-height: 100px;
+    margin: 15px 0 0 25px;
+    border-bottom: 4px solid #866443;
+    display: inline-table;
+}
+.l2_2_2{
+    border: 0; 
+    margin-bottom: 18px;
+}
+.photo {
+    display: block;
+    width: 220px;
+    height: 220px;
+    background-image: url(img/resume_photo.jfif);
+    margin: 50px 110px 25px 25px;
+    border-radius: 50%;
+    background-size: 265px;
+    background-position: -27px -91px;
+    float: left;
+}
+.name{
+    margin: 50px 0  20px;
+    float: left;
+    width: 530px;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px; /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: #e78589;
+    float: left;
+    
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+.sm{
+    font-size: 26px !important;
+}
+.h1{
+    color: #6d5033;
+    font-family: Oswald;
+    letter-spacing: 10px;
+    font-variant-caps: all-petite-caps;
+    font-size: 65px;
+    padding: 0 0 0 25px;
+    margin: -11px 0 0 0;
+    float: left;
+    line-height: 40px;
+    font-weight: lighter;
+}
+.l_border{
+    border-left: 10px solid #866443;
+    height: 40px;
+    float: left;
+}
+.position{
+    color: #e78589;
+    font-family: Oswald;
+    letter-spacing: 5px;
+    font-variant-caps: all-petite-caps;
+    font-size: 40px;
+    padding: 0 0 20px 35px;
+    float: left;
+    width: 500px;
+    font-weight: lighter;
+}
+.sp{
+    color: #6d5033;
+    font-family: Oswald;
+    letter-spacing: 5px;
+    font-variant-caps: all-petite-caps;
+    font-size: 19px;
+    padding: 0 0 0 20px;
+    float: left;
+    width: 480px;
+    font-weight: bold;
+    height: 26px;
+}
+.bigicon{
+    font-size: 45px !important;
+}
+.subtitle {
+    color: #6d5033;
+    font-family: Oswald;
+    letter-spacing: 5px;
+    font-variant-caps: all-petite-caps;
+    font-size: 40px;
+    padding: 0px 0 0 12px;
+    float: left;
+    font-weight: lighter;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+.maintext{
+    color: #6d5033;
+    font-family: Oswald;
+    letter-spacing: 3px;
+    font-variant-caps: all-petite-caps;
+    font-size: 22px;
+    float: left;
+    font-weight: lighter;
+    width: 330px;
+    text-align: center;
+    margin-top: 5px;
+}
+.details{
+    color: #6d5033;
+    font-family: Oswald;
+    letter-spacing: 3px;
+    font-variant-caps: all-petite-caps;
+    font-size: 22px;
+    float: left;
+    font-weight: lighter;
+    width: 330px;
+    text-align: center;
+    margin-bottom: 30px; 
+}
+hr{
+    background: #866443;
+    width: 75px;
+    height: 4px;
+    border: 0;
+}
+#study{
+    margin-top: 30px;
+}
+ul{
+    padding-left: 20px;
+    text-align: left;
+}
+.exp{
+    width: 510px;
+    float: left;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    margin-top: 5px;
+}
+.point{
+    display: block;
+    float: left;
+    height: 60px;
+    vertical-align: middle;
+}
+.point span{
+    margin-top: 18px;
+}
+.cname{ 
+    width: 386px;
+    float: left;
+    color: #e78589;
+    font-family: Oswald;
+    letter-spacing: 4px;
+    font-variant-caps: all-petite-caps;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.years{
+    width: 100px;
+    float: left;
+    display: inline-block;
+    font-family: Oswald;
+    letter-spacing: 3px;
+    font-variant-caps: all-petite-caps;
+    font-size: 17px;
+    font-weight: lighter;
+    color: #6d5033;
+    text-align: center;
+    margin-top: 13px;
+}
+.posit{
+    width: 386px;
+    float: left;
+    font-family: Oswald;
+    letter-spacing: 3px;
+    font-variant-caps: all-petite-caps;
+    font-size: 22px;
+    font-weight: lighter;
+    color: #6d5033;
+}
+.cont{
+    width: 386px;
+    float: left;
+}
+.skill{
+    width: 510px;
+    display: flex;
+    float: left;
+}
+.skill_name{
+    width: 45%;
+    float: left;
+    font-family: Oswald;
+    letter-spacing: 2px;
+    font-variant-caps: all-petite-caps;
+    font-size: 22px;
+    font-weight: lighter;
+    color: #6d5033;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.skill_level{
+    background-image: url(img/dot.png);
+    float: left;
+    width: 55%;
+    display: block;
+    background-repeat: repeat-x;
+    height: 30px;
+    background-position-x: left;
+    background-size: 28px;
+    background-position-y: center;
+    margin: auto 0;
+}
+#l1{
+    width: 28px;
+}
+#l2{
+    width: 56px;
+}
+#l3{
+    width: 84px;
+}
+#l4{
+    width: 112px;
+}
+#l5{
+    width: 140px;
+}
+#l6{
+    width: 168px;
+}
+#l7{
+    width: 196px;
+}
+#l8{
+    width: 224px;
+}
+#l9{
+    width: 252px;
+}
+#l10{
+    width: 280px;
+}
+.main_cont{
+    float: left;
+    display: flex;
+    border-bottom: 4px solid #866443;
+}
+#soc_med{
+    font-size: 43px;
+    display: inline-block;
+    color: #e78589;
+    float: left;
+    margin: auto 0;
+}
+.fb{
+    margin: 0 auto;
+    display: flex;
+}
+.nn{
+    float: left;
+    font-family: Oswald;
+    letter-spacing: 5px;
+    font-variant-caps: all-petite-caps;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #6d5033;
+    font-weight: bold;
+    padding: 0 0 10px 10px;
+    margin: auto 0;
+    text-decoration: none;
+}
+.tg{
+    padding: 0 0 0 131px;
+}
+.all_skills{
+    margin-top: 15px;
+
+}
+#oneskill{
+    margin-top: 30px;
+}
